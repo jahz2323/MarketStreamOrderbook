@@ -63,6 +63,7 @@ StreamConfig StreamConfig::ExtractStreamConfig(std::string_view raw_json)
 
     return config;
 }
+
 StreamConfig StreamConfig::parse_string_target(std::string_view target)
 {
     StreamConfig config;
